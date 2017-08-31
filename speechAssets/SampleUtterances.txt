@@ -1,0 +1,161 @@
+Hello hello
+Hello hi
+Hello hey
+
+NextDeparture give me the next departure from Lux Airport
+NextDeparture give me the next departure from Luxembourg
+NextDeparture give me the next departure from Luxembourg Airport
+NextDeparture give me the next departure from the airport
+NextDeparture give me the next flight departing from Lux Airport
+NextDeparture give me the next flight departing from Luxembourg
+NextDeparture give me the next flight departing from Luxembourg Airport
+NextDeparture give me the next flight departing from the airport
+NextDeparture give me the next flight from Lux Airport
+NextDeparture give me the next flight from Luxembourg
+NextDeparture give me the next flight from Luxembourg Airport
+NextDeparture give me the next flight from the airport
+NextDeparture give me the next flight taking off from Lux Airport
+NextDeparture give me the next flight taking off from Luxembourg
+NextDeparture give me the next flight taking off from Luxembourg Airport
+NextDeparture give me the next flight taking off from the airport
+NextDeparture give me the next leaving Lux Airport
+NextDeparture give me the next leaving Luxembourg
+NextDeparture give me the next leaving Luxembourg Airport
+NextDeparture give me the next leaving the airport
+NextDeparture give me the next take-off from Lux Airport
+NextDeparture give me the next take-off from Luxembourg
+NextDeparture give me the next take-off from Luxembourg Airport
+NextDeparture give me the next take-off from the airport
+NextDeparture next departure from Lux Airport
+NextDeparture next departure from Luxembourg
+NextDeparture next departure from Luxembourg Airport
+NextDeparture next departure from the airport
+NextDeparture next flight departing from Lux Airport
+NextDeparture next flight departing from Luxembourg
+NextDeparture next flight departing from Luxembourg Airport
+NextDeparture next flight departing from the airport
+NextDeparture next flight from Lux Airport
+NextDeparture next flight from Luxembourg
+NextDeparture next flight from Luxembourg Airport
+NextDeparture next flight from the airport
+NextDeparture next flight taking off from Lux Airport
+NextDeparture next flight taking off from Luxembourg
+NextDeparture next flight taking off from Luxembourg Airport
+NextDeparture next flight taking off from the airport
+NextDeparture next leaving Lux Airport
+NextDeparture next leaving Luxembourg
+NextDeparture next leaving Luxembourg Airport
+NextDeparture next leaving the airport
+NextDeparture next take-off from Lux Airport
+NextDeparture next take-off from Luxembourg
+NextDeparture next take-off from Luxembourg Airport
+NextDeparture next take-off from the airport
+NextDeparture tell me the next departure from Lux Airport
+NextDeparture tell me the next departure from Luxembourg
+NextDeparture tell me the next departure from Luxembourg Airport
+NextDeparture tell me the next departure from the airport
+NextDeparture tell me the next flight departing from Lux Airport
+NextDeparture tell me the next flight departing from Luxembourg
+NextDeparture tell me the next flight departing from Luxembourg Airport
+NextDeparture tell me the next flight departing from the airport
+NextDeparture tell me the next flight from Lux Airport
+NextDeparture tell me the next flight from Luxembourg
+NextDeparture tell me the next flight from Luxembourg Airport
+NextDeparture tell me the next flight from the airport
+NextDeparture tell me the next flight taking off from Lux Airport
+NextDeparture tell me the next flight taking off from Luxembourg
+NextDeparture tell me the next flight taking off from Luxembourg Airport
+NextDeparture tell me the next flight taking off from the airport
+NextDeparture tell me the next leaving Lux Airport
+NextDeparture tell me the next leaving Luxembourg
+NextDeparture tell me the next leaving Luxembourg Airport
+NextDeparture tell me the next leaving the airport
+NextDeparture tell me the next take-off from Lux Airport
+NextDeparture tell me the next take-off from Luxembourg
+NextDeparture tell me the next take-off from Luxembourg Airport
+NextDeparture tell me the next take-off from the airport
+
+NextArrival give me the next arrival in Lux Airport
+NextArrival give me the next arrival in Luxembourg
+NextArrival give me the next arrival in Luxembourg Airport
+NextArrival give me the next arrival in the airport
+NextArrival give me the next arrival to Lux Airport
+NextArrival give me the next arrival to Luxembourg
+NextArrival give me the next arrival to Luxembourg Airport
+NextArrival give me the next arrival to the airport
+NextArrival give me the next flight arriving in Lux Airport
+NextArrival give me the next flight arriving in Luxembourg
+NextArrival give me the next flight arriving in Luxembourg Airport
+NextArrival give me the next flight arriving in the airport
+NextArrival give me the next flight arriving to Lux Airport
+NextArrival give me the next flight arriving to Luxembourg
+NextArrival give me the next flight arriving to Luxembourg Airport
+NextArrival give me the next flight arriving to the airport
+NextArrival give me the next flight landing in Lux Airport
+NextArrival give me the next flight landing in Luxembourg
+NextArrival give me the next flight landing in Luxembourg Airport
+NextArrival give me the next flight landing in the airport
+NextArrival give me the next flight to Lux Airport
+NextArrival give me the next flight to Luxembourg
+NextArrival give me the next flight to Luxembourg Airport
+NextArrival give me the next flight to the airport
+NextArrival give me the next landing in Lux Airport
+NextArrival give me the next landing in Luxembourg
+NextArrival give me the next landing in Luxembourg Airport
+NextArrival give me the next landing in the airport
+NextArrival next arrival in Lux Airport
+NextArrival next arrival in Luxembourg
+NextArrival next arrival in Luxembourg Airport
+NextArrival next arrival in the airport
+NextArrival next arrival to Lux Airport
+NextArrival next arrival to Luxembourg
+NextArrival next arrival to Luxembourg Airport
+NextArrival next arrival to the airport
+NextArrival next flight arriving in Lux Airport
+NextArrival next flight arriving in Luxembourg
+NextArrival next flight arriving in Luxembourg Airport
+NextArrival next flight arriving in the airport
+NextArrival next flight arriving to Lux Airport
+NextArrival next flight arriving to Luxembourg
+NextArrival next flight arriving to Luxembourg Airport
+NextArrival next flight arriving to the airport
+NextArrival next flight landing in Lux Airport
+NextArrival next flight landing in Luxembourg
+NextArrival next flight landing in Luxembourg Airport
+NextArrival next flight landing in the airport
+NextArrival next flight to Lux Airport
+NextArrival next flight to Luxembourg
+NextArrival next flight to Luxembourg Airport
+NextArrival next flight to the airport
+NextArrival next landing in Lux Airport
+NextArrival next landing in Luxembourg
+NextArrival next landing in Luxembourg Airport
+NextArrival next landing in the airport
+NextArrival tell me the next arrival in Lux Airport
+NextArrival tell me the next arrival in Luxembourg
+NextArrival tell me the next arrival in Luxembourg Airport
+NextArrival tell me the next arrival in the airport
+NextArrival tell me the next arrival to Lux Airport
+NextArrival tell me the next arrival to Luxembourg
+NextArrival tell me the next arrival to Luxembourg Airport
+NextArrival tell me the next arrival to the airport
+NextArrival tell me the next flight arriving in Lux Airport
+NextArrival tell me the next flight arriving in Luxembourg
+NextArrival tell me the next flight arriving in Luxembourg Airport
+NextArrival tell me the next flight arriving in the airport
+NextArrival tell me the next flight arriving to Lux Airport
+NextArrival tell me the next flight arriving to Luxembourg
+NextArrival tell me the next flight arriving to Luxembourg Airport
+NextArrival tell me the next flight arriving to the airport
+NextArrival tell me the next flight landing in Lux Airport
+NextArrival tell me the next flight landing in Luxembourg
+NextArrival tell me the next flight landing in Luxembourg Airport
+NextArrival tell me the next flight landing in the airport
+NextArrival tell me the next flight to Lux Airport
+NextArrival tell me the next flight to Luxembourg
+NextArrival tell me the next flight to Luxembourg Airport
+NextArrival tell me the next flight to the airport
+NextArrival tell me the next landing in Lux Airport
+NextArrival tell me the next landing in Luxembourg
+NextArrival tell me the next landing in Luxembourg Airport
+NextArrival tell me the next landing in the airport

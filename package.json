@@ -1,0 +1,15 @@
+{
+  "name": "alexa-lambda-lux-airport",
+  "version": "1.0.0",
+  "description": "Alexa skill based upon Lux Airport / Luxembourg Open Data API and using AWS lambda",
+  "main": "./lambda/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alexa",
+    "LuxAirport"
+  ],
+  "author": "Bruno Wozniak",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "Hello"
+    },
+    {
+      "intent": "NextDeparture"
+    },
+    {
+      "intent": "NextArrival"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
