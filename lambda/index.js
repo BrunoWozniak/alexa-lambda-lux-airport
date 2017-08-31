@@ -80,12 +80,12 @@ const handlers = {
 
   'AMAZON.StopIntent': function () {
     // State Automatically Saved with :tell
-    this.emit(':tell', 'We hope to see you again soon at Lux Airport');
+    this.emit(':tell', 'Goodbye! We hope to see you again very soon at Lux Airport.');
   },
 
   'AMAZON.CancelIntent': function () {
     // State Automatically Saved with :tell
-    this.emit(':tell', 'We hope to see you again soon at Lux Airport');
+    this.emit(':tell', 'Goodbye! We hope to see you again very soon at Lux Airport.');
   },
 
   'SessionEndedRequest': function () {
