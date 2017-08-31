@@ -1,7 +1,3 @@
-Hello hello
-Hello hi
-Hello hey
-
 NextDeparture give me the next departure from Lux Airport
 NextDeparture give me the next departure from Luxembourg
 NextDeparture give me the next departure from Luxembourg Airport

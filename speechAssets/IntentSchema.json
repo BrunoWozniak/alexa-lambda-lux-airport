@@ -1,9 +1,6 @@
 {
   "intents": [
     {
-      "intent": "Hello"
-    },
-    {
       "intent": "NextDeparture"
     },
     {
