@@ -11,5 +11,12 @@
     "LuxAirport"
   ],
   "author": "Bruno Wozniak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.12",
+    "axios": "^0.16.2"
+  },
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
+  }
 }

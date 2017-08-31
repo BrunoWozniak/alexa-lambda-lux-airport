@@ -8,9 +8,8 @@ const s3 = new aws.S3();
 let messageToBeLogged = '';
 
 function addDays(date, days) {
-   const result = new Date(date);
+   let result = new Date(date);
    result.setDate(result.getDate() + days);
-   console.log()
    return result.getTime();
 }
 
@@ -36,13 +35,13 @@ function checkFlightAPI(direction) {
                      next = item.scheduled;
                   }
                }
-            })
+            });
 
             if (response.data.length === 0) {
                messageToBeLogged += `${direction} Empty\r\n`;
             } else if (which === 0) {
-               const txt = `${direction} OK +
-                  ``${response.data[which].flight} ` +
+               const txt = `${direction} OK` +
+                  `${response.data[which].flight} ` +
                   `${response.data[which].statusCode} ` +
                   `${response.data[which].status} ` +
                   `S ${response.data[which].scheduled} ` +
@@ -90,10 +89,9 @@ function writeS3Log() {
       s3.getObject(params, (errGet, dataGet) => {
          if (errGet) {
             console.log(errGet);
-            const message = `Error getting object ${key}` +
-               `from bucket ${bucket}` +
-               `. Make sure they exist and your bucket is ` +
-               `in the same region as this function.`;
+            const message = `Error getting object ${key} from bucket ` +
+               `${bucket}. Make sure they exist and your bucket is ` +
+               'in the same region as this function.';
             console.log(message);
             reject(message);
          } else {
@@ -107,8 +105,8 @@ function writeS3Log() {
                if (errPut) {
                   console.log(errPut);
                   const message = `Error getting object ${key} from bucket ` +
-                     `${bucket}. Make sure they exist and your bucket ` +
-                     `is in the same region as this function.`;
+                     `${bucket}. Make sure they exist and your bucket is ` +
+                     'in the same region as this function.';
                   console.log(message);
                   reject(message);
                } else {

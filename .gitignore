@@ -1,5 +1,7 @@
+node_modules/
 utils/lambda.zip
-utils/.eslintrc.js
+utils/.eslintrc
 utils/publish_lambda.sh
 publish_lambda.sh
 lambda.zip
+.eslintrc

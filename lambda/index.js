@@ -1,13 +1,14 @@
-var Alexa = require('alexa-sdk');
+const Alexa = require('alexa-sdk');
 const axios = require('axios');
 
-exports.handler = function(event, context, callback){
-  var alexa = Alexa.handler(event, context);
+// exports.handler = function (event, context, callback){
+exports.handler = function (event, context) {
+  const alexa = Alexa.handler(event, context);
   alexa.registerHandlers(handlers);
   alexa.execute();
 };
 
-var handlers = {
+const handlers = {
 
   'LaunchRequest': function () {
     this.emit(':ask', 'Welcome to Lux Airport! You can ask me the next flight arrival or departure at Luxembourg airport', 'What can I do for you?');
@@ -28,7 +29,9 @@ var handlers = {
         if (response.data[0].airline.toUpperCase() === 'LUXAIR') {
           response.data[0].airline = 'Lux Air';
         }
-        var message = `Next departure is flight number <say-as interpret-as="characters">${response.data[0].flight}</say-as>, to, ${response.data[0].destination}, on, ${response.data[0].airline}. <prosody rate="slow" volume="soft">I wish I could go?</prosody> `;
+        var message = `Next departure is flight number
+         <say-as interpret-as="characters">${response.data[0].flight}</say-as>,
+         to, ${response.data[0].destination}, on, ${response.data[0].airline}.`;
         this.emit(':ask', `${airportChimeStartSound} ${message}`, 'What can I do for you?');
     }).catch((e) => {
         this.emit(':tell', `${airportChimeStartSound} ${e.message}`);
