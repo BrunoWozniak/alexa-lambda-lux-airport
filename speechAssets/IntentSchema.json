@@ -1,19 +1,26 @@
 {
-  "intents": [
-    {
-      "intent": "NextDeparture"
-    },
-    {
-      "intent": "NextArrival"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
-    },
-    {
-      "intent": "AMAZON.HelpIntent"
-    }
-  ]
+   "intents": [{
+         "intent": "NextDeparture",
+         "slots": [{
+            "name": "Airline",
+            "type": "AIRLINE"
+         }]
+      },
+      {
+         "intent": "NextArrival",
+         "slots": [{
+            "name": "Airline",
+            "type": "AIRLINE"
+         }]
+      },
+      {
+         "intent": "AMAZON.StopIntent"
+      },
+      {
+         "intent": "AMAZON.CancelIntent"
+      },
+      {
+         "intent": "AMAZON.HelpIntent"
+      }
+   ]
 }

@@ -2,7 +2,7 @@ const Alexa = require('alexa-sdk');
 const axios = require('axios');
 
 // exports.handler = function (event, context, callback){
-exports.handler = function(event, context) {
+exports.handler = function(event, context, callback) {
    const alexa = Alexa.handler(event, context);
    alexa.dynamoDBTableName = 'LuxAirport';
    alexa.registerHandlers(handlers);
@@ -11,20 +11,19 @@ exports.handler = function(event, context) {
 
 const handlers = {
 
-   // Write some code to figure out if first time
-   // Attention what if calling the skill in one go
    'NewSession': function () {
-      const numberOfVisits = this.attributes['numberOfVisits'];
-      this.attributes['numberOfVisits'] += 1;
+      const numberOfVisits = Number(this.attributes['numberOfVisits']);
       if (numberOfVisits) {
+         this.attributes['numberOfVisits'] = (numberOfVisits + 1).toString();
          let welcomeBack = '';
-         if ((numberOfVisit + 1) % 10) welcomeBack += `Woohoo, it's been ${numberOfVisit + 1} times!`;
+         if (!((numberOfVisits + 1) % 2)) welcomeBack += `Excellent! You have come here ${numberOfVisits + 1} times!`;
          welcomeBack = welcomeBack +
             'Welcome back! You can ask me the next flight arrival or ' +
             'departure at Luxembourg airport' +
             'What do you want to do?';
          this.emit(':ask', welcomeBack, 'What do you want to do?');
       } else {
+         this.attributes['numberOfVisits'] = '1';
          this.emit(':ask',
             'Welcome to Lux Airport! You can ask me the next flight arrival or ' +
             'departure at Luxembourg airport',
@@ -39,6 +38,8 @@ const handlers = {
          'What can I do for you?');
    },
 
+   // Refactor to mutualize code betwwen Departure and Arrivals
+   // Handle Airline slot
    'NextDeparture': function() {
       const nextDepartureURL = 'https://api.tfl.lu/v1/Airport/Departures';
       const airportChimeStartSound =

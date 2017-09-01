@@ -40,7 +40,7 @@ function checkFlightAPI(direction) {
             if (response.data.length === 0) {
                messageToBeLogged += `${direction} Empty\r\n`;
             } else if (which === 0) {
-               const txt = `${direction} OK` +
+               const txt = `${direction} OK ` +
                   `${response.data[which].flight} ` +
                   `${response.data[which].statusCode} ` +
                   `${response.data[which].status} ` +
